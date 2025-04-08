@@ -61,7 +61,7 @@ function orderlist(response) {
 
         rows.forEach(element => {
             response.write("<tr>" 
-                        + "<td>"+element.product_id+"</td>"
+                        + "<td>"+element.product_Id+"</td>"
                         + "<td>"+element.order_date+"</td>"
                         + "</tr>");
         });
